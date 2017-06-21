@@ -1,0 +1,23 @@
+/*.container{
+	max-width: 1240px;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.banner{
+	background-image: url(../images/banner.jpg);
+	height: 164px;
+	width: 100%;
+}
+.header{
+	float: left;
+}*/
+ header::before{
+ 	content: 'before';
+
+ }
+ header::after{
+ 	content: 'after';
+
+ }
